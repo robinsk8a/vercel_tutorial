@@ -31,6 +31,7 @@ export default async function InvoicesTable({
                         className="mr-2 rounded-full"
                         width={28}
                         height={28}
+                        alt="This fucking alt throw me an error in deploy!"
                       />
                       <p>{invoice.name}</p>
                     </div>
@@ -89,6 +90,7 @@ export default async function InvoicesTable({
                         className="rounded-full"
                         width={28}
                         height={28}
+                        alt="Annother fucking alt i need to set up"
                       />
                       <p>{invoice.name}</p>
                     </div>
